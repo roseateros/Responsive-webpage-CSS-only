@@ -1,0 +1,457 @@
+
+/*Color refrence from euskaltel*/
+/*@roshangautam*/
+
+@charset "utf-8";
+
+body{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #FCFCFC;
+}
+
+a:hover{
+	color: #FCFCFC
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+
+#wrapper{
+	width: 1160px;
+	margin: auto;
+	background: #f6f6f6;
+	overflow: hidden;
+
+}
+
+h2{
+	margin: 0px;
+}
+
+#header {
+	background: #FF5800;
+	padding: 10px;
+	color: #FCFCFC;
+}
+
+#header h1, #header p{
+	margin: 0;
+
+}
+
+
+#logo{
+	float: left;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+#socials{
+	float: right;
+	font-size: 20px;
+	width: 120px;
+	padding: 10px;
+}
+
+#socials a{
+	margin-left: 6px;
+}
+
+#socials a:hover{
+	color: #FCFCFC
+
+}
+
+#cover{
+	width: 100%;
+	height: 200px;
+	background-image: url(img/cover.jpg);
+	margin-top: 20px;
+	clear: both;
+}
+
+
+#nav{
+	background: #FF5800;
+}
+
+#nav ul{
+	padding: 0px;
+	margin-bottom: 20px;
+	list-style-type: none;
+	overflow: hidden;
+	border: 1px solid #FF5800;
+}
+
+#nav ul li{
+	float: left;
+
+}
+
+#nav ul li a{
+	display: block;
+	padding: 15px 12px;
+	text-align: center;
+}
+
+#nav ul li a:hover{
+	background: #FCFCFC;
+	color:#FF5800;
+}
+
+#main{
+	width: 760px;
+	float: left;
+	margin-left: 20px;
+
+}
+
+.section{
+	margin-bottom: 20px;
+	background: #FCFCFC;
+	padding: 20px;
+	overflow: hidden;
+	text-align: justify;
+	color:Black
+ }
+
+.section img{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #FF5800
+	padding: 3px;
+}
+.section h2 a{
+	color: #FF5800
+}
+.section p a{
+	color: #FF5800
+}
+#aside{
+	width:340px;
+	float: left;
+	margin-left: 20px;
+}
+
+#aside h2, #aside ul{
+	margin: 0px;
+
+}
+
+.article input[type="text"]{
+	width: 100%;
+	height: 30px;
+	background-color: #FCFCFC;
+	border: 1px solid #FF5800;
+	color: #FF5800;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ .article input[type="submit"]{
+	width: 90px;
+	height: 50px;
+	font-weight: bold;
+	background-color: #FF5800;
+	color:#FCFCFC;
+	}
+ .article input[type="submit"]:hover{
+	background: #FCFCFC;
+	border: 1px solid #FF5800;
+	font-weight: bold;
+	color:#FF5800;
+}
+
+.article{
+	background: #FCFCFC;
+	color:#FF5800;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.article a{
+	background: #FCFCFC;
+	color:#FF5800;
+}
+.article a:hover{
+	background: #FF5800;
+	color:#FCFCFC;
+	padding: 2px;
+	margin: 2px;
+}
+
+.article ul{
+	list-style-type: none;
+	color:#FF5800;
+}
+
+#footer{
+	background:#FF5800;
+	color: #FCFCFC;
+	clear: both;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+
+#ask{
+	margin: 20px;
+	padding: 20px;
+	background: #FCFCFC;
+}
+#ask label{
+	font-size: 1.5em;
+}
+
+#ask table{
+	width:100%;
+	border-collapse: collapse;
+}
+
+#ask table tr td{
+	border-bottom: 1px solid #FF5800;
+
+}
+#ask table tr:last-child td{
+	border: none;
+}
+
+#ask table tr td:first-child{
+	width:25%;
+	margin: auto;
+}
+
+
+#ask input, #ask select{
+	position: relative;
+	top:10px;
+	width: 40%;
+	height: 60px;
+	margin-bottom: 20px;
+	border: 1px solid #FCFCFC;
+	border-radius: 3px;
+
+}
+#ask textarea{
+	width: 50%;
+	position: relative;
+	top:10px;
+	height: 60px;
+	margin-bottom: 20px;
+	border: 1px solid #FCFCFC;
+	border-radius: 3px;
+	box-shadow: 0 0 3px #FCFCFC, 0 10px 15px #FCFCFC inset;
+}
+
+#ask input:hover, #ask select:hover, #ask textarea:hover{
+	background: #FCFCFC;
+	border: 1px solid #FF5800;
+}
+#ask input:focus, #ask select:focus {
+	width: 50%;
+}
+
+#ask textarea:focus{
+	width: 70%;
+}
+
+#ask table tr td input[type="submit"]:hover{
+	background-color: #FF5800
+	border: 1px solid #FF5800;
+	font-weight: bold;
+	color:#FCFCFC;
+}
+#ask table tr td input[type="submit"]{
+	float: right;
+	width: 90px;
+	height: 50px;
+	font-weight: bold;
+	background-color: #FF5800;
+	color:#FCFCFC;
+}
+
+#ask textarea{
+	height: 200px;
+	padding: 10px;
+}
+
+#ask input:required, #ask textarea:required {
+    background: #FCFCFC url("img/alert.png") no-repeat 98% center;
+}
+
+#ask input:required:valid, #ask textarea:required:valid {
+    background: #FCFCFC url("img/checked.png") no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+#ask input:focus:invalid, #ask textarea:focus:invalid {
+    background: #FCFCFC url("img/forbidden.png") no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535;
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1260px){
+	#wrapper{
+		width: 960px;
+	}
+	#main{
+		width: 660px;
+	}
+	#aside{
+		width: 240px;
+	}
+	#cover{
+		background-size: contain;
+		height: 160px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	#wrapper{
+		width: 760px;
+	}
+	#main{
+		width: 460px;
+	}
+	#aside{
+		width: 240px;
+	}
+	#cover{
+		background-size: contain;
+		height: 120px;
+	}
+	#ask input, #ask select, #ask textarea{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:hover, #ask select:hover, #ask textarea:hover{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:focus, #ask select:focus,  #ask textarea:focus{
+		width: 100%;
+		height: 40px;
+	}
+	#ask label{
+	font-size: 1em;
+}
+}
+@media screen  and (min-width: 481px) and (max-width: 767px){
+	img{
+		width: 100%;
+	}
+	#wrapper{
+		width: 80%;
+	}
+	#main, #aside{
+		width: auto;
+		float: none;
+		margin-right: 20px;
+	}
+	#cover{
+		background-size: contain;
+		height: 65px;
+
+	}
+	#socials{
+		float: none;
+		margin: auto;
+
+	}
+	#logo{
+		float:none;
+		margin: auto;
+		text-align: center;
+
+	}
+
+	#ask input, #ask select, #ask textarea{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:hover, #ask select:hover, #ask textarea:hover{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:focus, #ask select:focus,  #ask textarea:focus{
+		width: 100%;
+		height: 40px;
+	}
+	#ask label{
+	font-size: 1em;
+
+}
+}
+
+@media screen and (max-width: 480px){
+	h1,h2,h3,h4,h5,h6{
+		text-align: center;
+	}
+	#nav ul li{
+		float:none;
+	}
+	img{
+		width: 100%;
+	}
+	#wrapper{
+		width: 80%;
+	}
+	#main, #aside{
+		width: auto;
+		float: none;
+		margin-right: 20px;
+	}
+	#cover{
+		display: none;
+	}
+	#socials{
+		float: none;
+		margin: auto;
+
+	}
+	#logo{
+		float:none;
+		margin: auto;
+		text-align: center;
+
+	}
+
+	#ask input, #ask select, #ask textarea{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:hover, #ask select:hover, #ask textarea:hover{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:focus, #ask select:focus,  #ask textarea:focus{
+		width: 100%;
+		height: 40px;
+	}
+	#ask label{
+	font-size: 1em;
+		}
+	}
+
+	@media print {
+  header, footer, aside, form,nav,#seemoreid{
+    display: none;
+  }
+  section {
+    width:100%!important;
+    padding:0!important;
+    margin:0!important;
+  }
+}
